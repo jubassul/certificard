@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tenor+Sans&display=swap');
+body {
+  background: #A2E1DB;
+}
+.header-title-description {
+   color: #1C1C1C;
+  margin-left: 16px;
+}
+.title {
+  /* font-family: 'Tenor Sans', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550px;
+  font-size:36px;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.button-div{
+  align-self: start;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  padding: 8px 16px;
+}
+.button {
+  font-family:'Montserrat', sans-serif;
+  color: #1C1C1C;
+  font-weight:bold;
+  font-size:16px;
+  background:#DAF0F0;
+  border-radius: 30px;
+border: 2px solid #8FCACA; 
+box-shadow: 0 2px 12px rgba(0, 0, 0, 0.20);
+  cursor: pointer;
+}
+.container{
+   width:600px;
+  height: 600px;
+  background: #ECF4FF;
+  margin: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  
+}
+.header-image{
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.icon{
+  color:#8FCACA;
+  font-size: 1.3rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  align-items: left;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.projects-box{
+  margin:50px;
+  width:550px;
+  height:330px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8FCACA;
+  border-radius: 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+a{
+  color: #000000;
+  text-decoration: none;
+
+}
+li{
+  list-style-type: none;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.projects-text{
+ font-size: 24px;
+ text-align: center;
+}
+/* utilizando função changeTheme, criarei um css com um novo tema*/
+.dark{
+  background: #D6E0EC;
+}
+.dark .projects-box{
+ background: #B7C5D5;
+}
+.dark .button{
+  background: #E7EBED;
+  border: 2px solid #B7C5D5; 
+
+}
+.dark .icon{
+  color: #B7C5D5;
+}
